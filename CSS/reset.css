@@ -1,6 +1,7 @@
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -12,7 +13,6 @@ html {
 
 body {
   min-height: 100vh;
-  scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
@@ -61,7 +61,7 @@ textarea {
 input,
 textarea,
 button {
-  border: 1px solid grey;
+  border: 1px solid #ccc;
 }
 
 button {
